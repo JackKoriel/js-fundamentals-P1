@@ -16,7 +16,7 @@ function exercise10() {
   let hashtag = "";
   for (let i=1; i<=7; i++) {
     for (let j=0; j<i; j++) {
-          hashtag += "#";
+        hashtag += "#";
     }
     hashtag += "\n";
   }
