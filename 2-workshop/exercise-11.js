@@ -15,6 +15,19 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let hashtag = "";
+  for (let i = 1; i <= 8; i++) {
+    for (let j = 0; j < 8; j++) {
+      if (i % 2 === j % 2) {
+        hashtag += "_";
+      } else {
+        hashtag += "#";
+      }
+    }
+    hashtag += "\n";
+  }
+  console.log(hashtag);
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

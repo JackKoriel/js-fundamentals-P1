@@ -15,6 +15,23 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let notPrime = false;
+  for (let i = 0; i <= 200; i++) {
+    if (i === 2) {
+      notPrime = true;
+    }
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        notPrime = false;
+        break;
+      } else {
+        notPrime = true;
+      }
+    }
+    if (notPrime)
+      //why if I put ; the whole thing breaks and why I can't say if (prime=true >> console log i)
+      console.log(i);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
